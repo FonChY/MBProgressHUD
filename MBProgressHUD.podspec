@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.source_files = '*.{h,m}'
   s.frameworks   = "CoreGraphics", "QuartzCore"
-  s.requires_arc = true
-  s.resource_bundles = {
-    "MBProgressHUD" => 'MBProgressHUD/PrivacyInfo.xcprivacy'
-  }
+  s.requires_arc = true 
 end
+  s.subspec 'Resource' do |ss|
+    ss.source_files = 'PrivacyInfo.xcprivacy'
+  end 
