@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   s.source_files = '*.{h,m}'
   s.frameworks   = "CoreGraphics", "QuartzCore"
   s.requires_arc = true 
-end
-  s.subspec 'Resource' do |ss|
+  
+    s.subspec 'Resource' do |ss|
     ss.source_files = 'PrivacyInfo.xcprivacy'
-  end 
+    end 
+  end
