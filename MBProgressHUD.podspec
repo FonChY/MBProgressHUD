@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.frameworks   = "CoreGraphics", "QuartzCore"
   s.requires_arc = true
   s.resource_bundles = {
-    "MBProgressHUD" => 'MBProgressHUD/Resources/PrivacyInfo.xcprivacy'
+    "MBProgressHUD" => 'MBProgressHUD/PrivacyInfo.xcprivacy'
   }
 end
